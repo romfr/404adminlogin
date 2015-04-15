@@ -1,0 +1,3 @@
+app/code/community/Neoshops/AdminLogin app/code/community/Neoshops/AdminLogin
+app/etc/modules/Neoshops_AdminLogin.xml app/etc/modules/Neoshops_AdminLogin.xml
+app/design/adminhtml/default/default/template/neoshops app/design/adminhtml/default/default/template/neoshops

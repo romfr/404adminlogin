@@ -1,0 +1,10 @@
+{
+  "name": "neoshops/adminlogin",
+  "license": ["OSL-3.0"],
+  "type": "magento-module",
+  "description": "This module prevents 404 page after admin login",
+  "homepage": "https://github.com/romfr/404adminlogin",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  }
+}

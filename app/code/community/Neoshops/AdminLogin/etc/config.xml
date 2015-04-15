@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Neoshops_AdminLogin>
+            <version>0.1.0</version>
+        </Neoshops_AdminLogin>
+    </modules>
+    <global>
+        <models>
+            <neoshops_adminlogin>
+                <class>Neoshops_AdminLogin_Model</class>
+            </neoshops_adminlogin>
+        </models>
+    </global>
+    <adminhtml>
+        <events>
+            <adminhtml_block_html_before>
+                <observers>
+                    <neoshops_adminhtml_block_html_before>
+                        <class>neoshops_adminlogin/observer</class>
+                        <method>htmlBefore</method>
+                    </neoshops_adminhtml_block_html_before>
+                </observers>
+            </adminhtml_block_html_before>
+        </events>
+    </adminhtml>
+</config>
